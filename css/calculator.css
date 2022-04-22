@@ -1,0 +1,246 @@
+body{
+    background:linear-gradient(rgb(120, 221, 120),rgb(64, 253, 174),rgb(133, 211, 247));
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    background-size:100%;
+}
+@font-face{
+    font-family:calculadora;
+    src: url(../Assets/ds_digital/DS-DIGI.TTF);
+    
+}
+@font-face{
+    font-family:botones;
+    src:url(../Assets/space_age/space\ age.ttf);
+}
+.marca{
+    font-family: 'botones';
+     color: #fff;
+    text-shadow:  0px 0px 5px #fff, 0px 0px 5px #fff;
+}
+.container{
+    margin-top: 100px;
+    margin-bottom: 100px;
+    background-color: #465ff0;
+    border: 2px solid rgb(76, 153, 230) ;
+    margin-left: auto;
+    margin-right: auto;
+    width: 280px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    border-radius: px 5px 0px 0px;
+    box-shadow: 4px 4px rgb(0, 2, 3);
+    
+}
+.display{
+ 
+ margin-bottom: 10px;
+ width: 260px;
+ height: 50px;
+ margin-left: auto;
+ margin-right: auto;
+ text-align: center;
+ background-color: black;
+ border-radius: 0px 0px 5px 5px;
+ font-family: 'calculadora';
+ color: lightgreen;
+ line-height: 50px;
+ font-size: 25px;
+ font-weight:lighter;
+ overflow: hidden;
+ text-shadow:  0px 0px 3px rgb(143, 240, 134), 0px 0px 3px rgb(143, 240, 134);
+}
+.display2{
+
+ margin-top: 10px;
+ width: 260px;
+ height: 50px;
+ margin-left: auto;
+ margin-right: auto;
+ text-align: center;
+ background-color: black;
+ border-radius: 5px 5px 0px 0px;
+ font-family: 'calculadora';
+ color: lightgreen;
+ line-height: 50px;
+ font-size: small;
+ font-weight: bold;
+ overflow: hidden;
+}
+.boton{
+    
+  box-sizing: border-box;
+  border: 2px solid #00b6f8ab;
+  border-radius: 5px;
+  
+  color: #fff;
+  cursor: pointer;
+  display: block;  
+  
+  
+  height: 50px;
+  margin: 10px;
+  line-height: 50px;
+  text-align: center;
+  transition: all 0.2s ease 0s;
+  width: 50px;
+  font-family: 'botones';
+  font-size:larger ;
+}
+#signo{
+
+    background-color:rgb(157, 36, 228);
+    font-size: larger;
+
+}
+#signo:hover{
+	background: #00f798;
+}
+#signo:active {
+   box-shadow: 2px 2px  #777, ;
+   border:1px solid #0045A6;
+   text-shadow:  0px 0px 5px #fff, 0px 0px 5px #fff;
+   transform: translateY(2px);
+   transform: translatex(2px);
+   transition: all 0.1s ease 0s;
+   background: #4dc597;
+  
+}
+#raiz{
+
+    background-color:rgb(157, 36, 228);
+    font-size: larger;
+
+}
+#raiz:hover{
+	background: #00f798;
+}
+#raiz:active {
+   box-shadow: 2px 2px  #777, ;
+   border:1px solid #0045A6;
+   text-shadow:  0px 0px 5px #fff, 0px 0px 5px #fff;
+   transform: translateY(2px);
+   transform: translatex(2px);
+   transition: all 0.1s ease 0s;
+   background: #4dc597;
+  
+}
+#elevar{
+
+    background-color:rgb(157, 36, 228);
+    font-size: larger;
+
+}
+#elevar:hover{
+	background: #00f798;
+}
+#elevar:active {
+   box-shadow: 2px 2px  #777, ;
+   border:1px solid #0045A6;
+   text-shadow:  0px 0px 5px #fff, 0px 0px 5px #fff;
+   transform: translateY(2px);
+   transform: translatex(2px);
+   transition: all 0.1s ease 0s;
+   background: #4dc597;
+  
+}
+#numero{
+
+    background-color:#0096f7;
+
+}
+#numero:hover{
+	background: #00f798;
+}
+#numero:active {
+   box-shadow: 2px 2px  #777, ;
+   border:1px solid #0045A6;
+   text-shadow:  0px 0px 5px #fff, 0px 0px 5px #fff;
+   transform: translateY(2px);
+   transform: translatex(2px);
+   transition: all 0.1s ease 0s;
+   background: #4dc597;
+  
+}
+#reset{
+
+    background-color:tomato;
+
+}
+#reset:hover{
+	background: #00f798;
+}
+#reset:active {
+   box-shadow: 2px 2px  #777, ;
+   border:1px solid #0045A6;
+   text-shadow:  0px 0px 5px #fff, 0px 0px 5px #fff;
+   transform: translateY(2px);
+   transform: translatex(2px);
+   transition: all 0.1s ease 0s;
+   background: #4dc597;
+  
+}
+#igual{
+
+    background-color:rgb(47, 255, 116);
+
+}
+#igual:hover{
+	background: #00f798;
+}
+#igual:active {
+   box-shadow: 2px 2px  #777, ;
+   border:1px solid #0045A6;
+   text-shadow:  0px 0px 5px #fff, 0px 0px 5px #fff;
+   transform: translateY(2px);
+   transform: translatex(2px);
+   transition: all 0.1s ease 0s;
+   background: #4dc597;
+  
+}
+#borrar{
+
+    background-color:rgb(255, 47, 161);
+
+}
+#borrar:hover{
+	background: #00f798;
+}
+#borrar:active {
+   box-shadow: 2px 2px  #777, ;
+   border:1px solid #0045A6;
+   text-shadow:  0px 0px 5px #fff, 0px 0px 5px #fff;
+   transform: translateY(2px);
+   transform: translatex(2px);
+   transition: all 0.1s ease 0s;
+   background: #4dc597;
+  
+}
+#decimal{
+
+    background-color:rgb(105, 104, 104);
+
+}
+#decimal:hover{
+	background: #00f798;
+}
+#decimal:active {
+   box-shadow: 2px 2px  #777, ;
+   border:1px solid #0045A6;
+   text-shadow:  0px 0px 5px #fff, 0px 0px 5px #fff;
+   transform: translateY(2px);
+   transform: translatex(2px);
+   transition: all 0.1s ease 0s;
+   background: #4dc597;
+  
+}
+
+
+
+
+
+
+
